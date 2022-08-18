@@ -1,0 +1,31 @@
+/*
+#000033 body color*/
+/* #00328E fontcolor
+/*#ECF4F7 background color*/
+/*#C8102E boarder color*/
+
+.about-list{
+    list-style: none;
+    font-size: .75em;
+}
+
+.section-text-two {
+    width: 100%;
+}
+
+.section-text-two .image-blog-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .main-post {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-list {
+        font-size: .75em;
+    } 
+}

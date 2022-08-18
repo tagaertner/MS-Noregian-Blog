@@ -1,0 +1,27 @@
+img {
+    max-width: 100%;
+}
+
+.image-one {
+    grid-area: image-one;
+}
+
+.image-two {
+    grid-area: image-two;
+}
+
+.image-three {
+    grid-area: image-three;
+}
+
+.image-four {
+    grid-area: image-four;
+}
+
+.image-five {
+    grid-area: image-five;
+}
+
+.image-six {
+    grid-area: image-six;
+}
