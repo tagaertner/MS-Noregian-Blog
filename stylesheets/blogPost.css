@@ -20,6 +20,19 @@
     width: 100%;
 }
 
+.avatar-image-grid{
+    display: grid;
+    justify-content: center;
+    grid-template-areas: 
+        ". . . "
+        ". img ."
+        ". . . ";
+}
+
+.avatar-image{
+    grid-area: img;
+}
+
 @media (max-width: 600px) {
     .main-post {
         display: flex;
