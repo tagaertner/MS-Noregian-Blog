@@ -29,6 +29,14 @@
         ". . . ";
 }
 
+figcaption{
+    font-size: .25em;
+}
+
+figure{
+    margin-bottom: 1rem;
+}
+
 .avatar-image{
     grid-area: img;
 }
